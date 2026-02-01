@@ -23,11 +23,12 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-        # TODO: Detect the keypress event and adjust the player's position
-        #
-        # Hints:
-        #   - Use pygame.key.get_pressed() to get an array of all the keys currently pressed
-        #   - When the key is down you want to adjust the player_pos by PLAYER_SPEED
+
+    # TODO: Detect the keypress event and adjust the player's position
+    #
+    # Hints:
+    #   - Use pygame.key.get_pressed() to get an array of all the keys currently pressed
+    #   - When the key is down you want to adjust the player_pos by PLAYER_SPEED
 
     # Drawing
     screen.fill((0, 0, 0)) # clear the screen to black
