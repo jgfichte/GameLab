@@ -13,7 +13,7 @@ top-down 2D roguelike in the style of *The Binding of Isaac*.
 
 ```
 GameLab/
-  SPEC.md
+  README.md
   assets/
     player.png        (32x32 top-down character sprite)
     projectile.png    (8x8 bullet/tear sprite)
