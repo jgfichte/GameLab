@@ -29,6 +29,8 @@ while running:
     # Hints:
     #   - Use pygame.key.get_pressed() to get an array of all the keys currently pressed
     #   - When the key is down you want to adjust the player_pos by PLAYER_SPEED
+    keyPress = pygame.key.get_pressed()
+    print(keyPress[pygame.K_w])
 
     # Drawing
     screen.fill((0, 0, 0)) # clear the screen to black

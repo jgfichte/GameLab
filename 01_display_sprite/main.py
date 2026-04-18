@@ -7,7 +7,7 @@ pygame.init()
 SCREEN_WIDTH = 640
 SCREEN_HEIGHT = 480
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Exercise 01 – Display a Sprite")
+pygame.display.set_caption("Exercise 01 - Display a Sprite")
 clock = pygame.time.Clock()
 
 # Load the player sprite
